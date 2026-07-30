@@ -24,22 +24,22 @@ document.addEventListener('DOMContentLoaded', () => {
         const guests = [
             {
                 name: "Profª. Drª. Cristina Cerezuela",
-                img: "assets/img/cristina.jpg",
+                img: "assets/img/Cristina.jpg",
                 bio: `Doutora em Educação pelo Programa de Pós-Graduação em Educação da Universidade Estadual de Maringá (UEM) Linha de Pesquisa: Ensino, Aprendizagem e Formação de Professores. Mestre em Educação pela UEM (2010). Graduada em Educação Física pela UEM (1993) e em Pedagogia pela Faculdade Única (2024), Especialista em Didática e Metodologia do Ensino pela UNOPAR (1998) e Especialista em Educação Especial (2004) e em Psicopedagogia Institucional e Clínica (2010) pelo Instituto Paranaense de Ensino e Faculdades Maringá.<br><br>É professora da Educação Básica do Estado do Paraná na modalidade Educação Especial atuando nos programas de Atendimento Educacional Especializado (AEE) e no Ensino Superior atua em Cursos de Graduação e Pós-graduação em diversas disciplinas específicas da Educação Especial e Inclusiva e da Psicopedagogia Institucional e Clínica. Participante do grupo de pesquisa Desenvolvimento, Aprendizagem e Educação (CNPq).<br><br>Autora dos livros "Segredos para a Inclusão: desvendando práticas transformadoras" (Life Editora, 2024) e "Devolvendo o Desejo de Aprender" (Life Editora, 2024). Palestrante e Assessora Pedagógica para a efetivação da acessibilidade e da inclusão.`
             },
             {
                 name: "Profª. Me. Juliana da Silva Araújo Alencar",
-                img: "assets/img/juliana.jpg",
+                img: "assets/img/Juliana.jpg",
                 bio: `Possui graduação em psicologia pela Universidade Estadual de Maringá (2005) e mestrado em Psicologia (2012) pela mesma Instituição. Atualmente é professora titular do UniCesumar e psicóloga clínica de orientação psicanalítica.<br><br>Tem experiência na área de Psicologia, com ênfase em Psicologia do Desenvolvimento Humano e Aprendizagem, atuando principalmente nos seguintes temas: subjetividade, educação, psicanálise, aprendizagem, transtornos de aprendizagem e saúde mental.`
             },
             {
                 name: "Profª. Drª. Lilian Rosana dos Santos Moraes",
-                img: "assets/img/lilian.jpg",
+                img: "assets/img/Lilian.jpg",
                 bio: `Criadora da Graduação em Terapias Integrativas e Complementares no Brasil em 2018, pela Unicesumar, instituição que ofertou pela primeira vez o curso. Doutora em Promoção da Saúde pela Universidade Cesumar UNICESUMAR (2024). Doutora em Ciências da Educação pela UPAP (2006). Mestra em Distúrbios do Desenvolvimento pela Universidade Presbiteriana Mackenzie (2003). Especialista em Morfofisiologia Aplicada à Educação e Reabilitação Osteoarticular e Neurológica pela Universidade Estadual de Maringá - UEM (2002).<br><br>Especialista em Docência no Ensino Superior pelo Centro Universitário de Maringá (2006). Especialista em Estética Facial e Corporal pelo Centro Universitário Cesumar (2016). Graduada em Fisioterapia pela Faculdade Salesiana de Lins (2000), Tecnóloga em Estética e Imagem Pessoal na UNOPAR (2016) e Graduanda em Terapia Ocupacional pela Unicesumar.<br><br>Coordenadora dos Cursos Tecnólogos em Estética e Cosmética, Podologia e Terapias Integrativas e Complementares, sendo os três na modalidade EAD/metodologia híbrida, na Universidade Cesumar - Unicesumar. Coordenadora do Curso Bacharelado em Fisioterapia. Foi coordenadora do curso Tecnólogo em Estética e Cosmética presencial da Unicesumar (2010-2019). Elaboradora de Questões para o Banco Nacional de Itens (BNI) da Educação Superior do Curso de Estética e Cosmética para o ENADE. Coordenadora dos Cursos de Podologia e Massoterapia do PRONATEC (2014-2015).<br><br>Atualmente é professora e coordenadora titular do Centro Universitário Cesumar. Tem experiência na área das Práticas Integrativas e Complementares, Morfofisiologia, Estética, Fisioterapia com ênfase em Neuropediatria e Educação Especial. Autora de livros e artigos científicos.`
             },
             {
                 name: "Profª. Me. Maria Cristina Araujo de Brito Cunha",
-                img: "assets/img/maria.jpg",
+                img: "assets/img/Maria.jpg",
                 bio: `Possui graduação em Serviço Social pela Universidade Federal do Amazonas (1986) e mestrado em Gerontologia pela Pontifícia Universidade Católica de São Paulo (2003).<br><br>Atualmente é consultora BRITO CUNHA CONSULTORIA, avaliadora do sinaes do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira e coordenadora do curso de serviço social do Centro de Ensino Superior de Maringá.<br><br>Tem experiência na área de Serviço Social, com ênfase em Serviço Social, atuando principalmente nos seguintes temas: assistência social, serviço social de empresa; prevenção às deficiências, ead e estágio; controle social e tecnologias.`
             }
         ];
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: "Profª Ma. Waleria Leonel",
                 role: "Coordenação Geral",
-                img: "assets/img/waleria.jpg",
+                img: "assets/img/Waleria.jpg",
                 isStar: true,
                 bio: `
                     <ul style="padding-left: 20px; list-style-type: disc;">
@@ -119,42 +119,42 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: "Felipe Laureano",
                 role: "Tutor",
-                img: "assets/img/felipe.jpeg",
+                img: "assets/img/Felipe.jpeg",
                 isStar: false,
                 bio: "<p>Bacharel em Psicologia, Bacharel e Especialista em Teologia. Dedica-se a acompanhar e apoiar os coordenadores e mediadores durante toda a organização do evento.</p>"
             },
             {
                 name: "Aline Gonçalves",
                 role: "Mediadora",
-                img: "assets/img/aline.jpeg",
+                img: "assets/img/Aline.jpeg",
                 isStar: false,
                 bio: "<p>Licenciada em Letras e Pedagogia, Especializada em Educação de Jovens e Adultos e Metodologia do Ensino de Língua Portuguesa, Mestre em Letras.</p>"
             },
             {
                 name: "Jamile Boffo",
                 role: "Mediadora",
-                img: "assets/img/jamile.png",
+                img: "assets/img/Jamile.png",
                 isStar: false,
                 bio: "<p>Licenciada em Pedagogia, Tecnóloga em Análise e Desenvolvimento de Sistemas, Especializada em Educação Especial e Libras, Mestre em Gestão do Conhecimento nas Organizações.</p>"
             },
             {
                 name: "Marcela Xavier",
                 role: "Mediadora",
-                img: "assets/img/marcela.jpeg",
+                img: "assets/img/Marcela.jpeg",
                 isStar: false,
                 bio: "<p>Licenciada em Pedagogia, Especialista em Psicopedagogia Institucional, Clínica e Hospitalar, Gestão Escolar e Metodologias e Processos na EAD, Neuropsicopedagogia.</p>"
             },
             {
                 name: "Naiara Santos",
                 role: "Mediadora",
-                img: "assets/img/naiara.jpeg",
+                img: "assets/img/Naiara.jpeg",
                 isStar: false,
                 bio: "<p>Bacharel em Psicologia, Especialista em Neuroaprendizagem, Gestão de Pessoas, Educação Especial com foco no Transtorno do Espectro Autista e Psicopatologia e Dependência Química.</p>"
             },
             {
                 name: "Thamires Ramos",
                 role: "Mediadora",
-                img: "assets/img/thamires.jpeg",
+                img: "assets/img/Thamires.jpeg",
                 isStar: false,
                 bio: "<p>Licenciada em Letras, Pedagogia e Gestão de Recursos Humanos, Especializada em Psicopedagogia Clínica e Institucional, Gestão e Docência no EAD, Educação Especial e Inclusiva e Tecnologias Aplicadas ao EAD.</p>"
             }
