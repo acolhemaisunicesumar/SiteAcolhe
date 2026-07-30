@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Acolhe+ | Convidadas Especiais</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <!-- Link para o CSS unificado -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/img/logoh_branca.png" alt="Logo Acolhe+" class="logo-img" onerror="this.outerHTML='<span style=\'color:#fff; font-size: 1.5rem; font-weight: 700;\'>Acolhe<span style=\'color:var(--cor-destaque)\'>+</span></span>'">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" style="color: #cbd5e1;">Início</a></li>
+                <li><a href="cronograma.html" style="color: #cbd5e1;">Cronograma</a></li>
+                <li><a href="convidadas.html" style="color: var(--cor-destaque);">Convidadas</a></li>
+                <li><a href="equipe.html" style="color: #cbd5e1;">Objetivos e Equipe</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="fullscreen-showcase">
+        
+        <div class="showcase-image-wrapper">
+            <img id="guestImg" src="assets/img/cristina.jpg" alt="Palestrante" class="guest-image anim-fade">
+            <div class="showcase-gradient-overlay"></div>
+        </div>
+
+        <div class="showcase-content">
+            <div class="text-panel">
+                <div id="textContent" class="anim-fade">
+                    <p class="guest-title">Convidada Especial</p>
+                    <h2 class="guest-name" id="guestName">Carregando...</h2>
+                    <div class="guest-bio" id="guestBio">Aguarde...</div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="nav-btn" id="prevBtn" aria-label="Anterior">&#10094;</button>
+                    <div class="dots-container" id="dotsContainer"></div>
+                    <button class="nav-btn" id="nextBtn" aria-label="Próximo">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Programa Acolhe+ | EAD UniCesumar. Desenvolvido para transformar trajetórias.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

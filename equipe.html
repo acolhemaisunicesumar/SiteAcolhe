@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Acolhe+ | Objetivos e Equipe</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <!-- Link para o CSS unificado -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/img/logoh_branca.png" alt="Logo Acolhe+" class="logo-img" onerror="this.outerHTML='<span style=\'color:#fff; font-size: 1.5rem; font-weight: 700;\'>Acolhe<span style=\'color:var(--cor-destaque)\'>+</span></span>'">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" style="color: #cbd5e1;">Início</a></li>
+                <li><a href="cronograma.html" style="color: #cbd5e1;">Cronograma</a></li>
+                <li><a href="convidadas.html" style="color: #cbd5e1;">Convidadas</a></li>
+                <li><a href="equipe.html" style="color: var(--cor-destaque);">Objetivos e Equipe</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero-inner">
+        <div class="hero-inner-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" style="font-size: 2.5rem; margin-bottom: 0.5rem;">Objetivos e Realização</h1>
+            <p class="hero-subtitle">Conheça o propósito do evento e a equipe por trás do programa.</p>
+        </div>
+    </header>
+
+    <section class="section" style="padding-top: 3rem;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Objetivos</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="grid-objetivos">
+                <div class="card-objetivo">
+                    <div class="icone-objetivo">🤝</div>
+                    <h3>Pertencimento</h3>
+                    <p>Promover o sentimento de pertencimento institucional.</p>
+                </div>
+                <div class="card-objetivo">
+                    <div class="icone-objetivo">🚀</div>
+                    <h3>Adaptação</h3>
+                    <p>Favorecer estratégias práticas de adaptação à vida acadêmica.</p>
+                </div>
+                <div class="card-objetivo">
+                    <div class="icone-objetivo">💡</div>
+                    <h3>Evolução</h3>
+                    <p>Discutir fatores que impactam a aprendizagem e permanência.</p>
+                </div>
+                <div class="card-objetivo">
+                    <div class="icone-objetivo">🌱</div>
+                    <h3>Protagonismo</h3>
+                    <p>Incentivar o seu protagonismo na construção do seu futuro.</p>
+                </div>
+                <div class="card-objetivo">
+                    <div class="icone-objetivo">🔍</div>
+                    <h3>Aproximação</h3>
+                    <p>Aproximar você de todos os serviços de apoio institucional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background-color: rgba(0,0,0,0.2);">
+        <div class="container">
+            <div class="section-title">
+                <h2>A Equipe Acolhe+</h2>
+                <div class="underline"></div>
+                <p class="section-subtitle" style="margin-top: 15px;">Selecione um membro da equipe para conhecer sua trajetória.</p>
+            </div>
+
+            <div class="team-dashboard">
+                
+                <div class="team-viewer" id="viewerContainer">
+                    <div id="viewerContent" class="fade-panel">
+                        <img src="" alt="Membro da Equipe" class="viewer-image" id="vImg">
+                        <div class="viewer-role" id="vRole">Coordenação Geral</div>
+                        <h3 class="viewer-name" id="vName">Nome</h3>
+                        <div class="viewer-bio" id="vBio">Biografia...</div>
+                    </div>
+                </div>
+
+                <div class="team-selector" id="selectorContainer"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Programa Acolhe+ | EAD UniCesumar. Desenvolvido para transformar trajetórias.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
