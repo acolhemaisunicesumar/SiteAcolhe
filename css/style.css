@@ -382,6 +382,51 @@ h1, h2, h3, h4 {
 }
 
 /* =========================================
+   SEÇÃO TEASER (VÍDEO INICIAL)
+   ========================================= */
+.teaser-section {
+    padding: 6rem 0 2rem 0;
+    position: relative;
+    z-index: 2;
+}
+
+.teaser-title {
+    text-align: center;
+    font-size: 2.25rem;
+    color: #fff;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* Mantém a proporção perfeita de 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto;
+    
+    /* Aplicando o padrão Glassmorphism do projeto */
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.video-wrapper iframe,
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 24px; /* Acompanha o arredondamento da caixa de vidro */
+    object-fit: cover;
+}
+
+/* =========================================
    PÁGINA CONVIDADAS
    ========================================= */
 .fullscreen-showcase {
