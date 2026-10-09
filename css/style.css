@@ -1057,3 +1057,9 @@ h1, h2, h3, h4 {
     .crono-title { font-size: 2.2rem; }
     .access-card { padding: 2rem; margin: 0 20px; }
 }
+
+@media (max-width: 992px) {
+    .edition-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
