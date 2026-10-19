@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
        ======================================================= */
     const btnSobre = document.querySelector('a[href="#sobre"]');
     if (btnSobre) {
-        btnSobre.addEventListener('click', function(e) {
+        btnSobre.addEventListener('click', function (e) {
             e.preventDefault();
             const sectionSobre = document.querySelector('#sobre');
             if (sectionSobre) {
@@ -22,23 +22,33 @@ document.addEventListener('DOMContentLoaded', () => {
     // Só executa se encontrar a imagem da convidada na tela
     if (guestImg) {
         // Localize a lista de 'guests' na seção de convidadas do main.js e substitua pelos participantes da 2ª Edição:
-const guests = [
-    {
-        name: "Fábio Iba",
-        img: "assets/img/fabio.jpg",
-        bio: `Especialista em carreira e mercado de trabalho. No Acolhe+ Posicionamento, aborda o conceito dos 5 pilares do posicionamento profissional: Identidade, Competências, Repertório, Propósito e Comunicação. Defensor da ideia de que posicionamento é aprender a comunicar com clareza quem você está se tornando.`
-    },
-    {
-        name: "Prof. Calili",
-        img: "assets/img/calili.jpg",
-        bio: `Músico e docente. Responsável pela condução da experiência musical ao vivo do evento, utilizando a música como ferramenta de sensibilização, pausa reflexiva e acolhimento emocional durante as transições de blocos.`
-    },
-    {
-        name: "Elis & Felipe",
-        img: "assets/img/mediadores_chat.jpg",
-        bio: `Mediadores responsáveis pela condução das dinâmicas interativas e pela escuta ativa do chat ao vivo, conectando as respostas dos estudantes ao estúdio e construindo o Mapa e Passaporte do Futuro Digital em tempo real.`
-    }
-];
+        const guests = [
+            {
+                name: "Gislaine Cardoso de Souza Fiaes",
+                img: "assets/img/gislaine.jpeg",
+                bio: `Doutoranda em Promoção da Saúde. Mestre em Ciências Farmacêuticas pela Universidade Estadual de Maringá (UEM). Possui experiência na área de Neuropsicofarmacologia, com ênfase nos substratos neurais da ansiedade e na fisiopatologia dos transtornos de ansiedade generalizada, depressão e transtorno do pânico (2017). Especialização em Farmacologia Aplicada a Terapêutica pela Universidade Estadual de Maringá (UEM) (2019). Graduação em Farmácia pela UniCesumar (2013). Com experiência docente no ensino superior presencial e a distância, ministrando disciplinas, como: Anatomia Humana, Toxicologia, Parasitologia, Fundamentos de Farmacologia e Farmacologia Aplicada. Atualmente, exerce a função de coordenadora de curso do Núcleo de Educação a Distância da Unicesumar.`
+            },
+            {
+                name: "Rafaela Haddad Costa Ribas",
+                img: "assets/img/rafaela.jpeg",
+                bio: `Licenciada em Música, é também Mestra e Doutora em Música pelo Instituto de Artes da Universidade Estadual de Campinas - UNICAMP. Bolsista CAPES tanto no mestrado quanto no doutorado, fez parte do Programa Estágio Docente e Docente Integral (PED), lecionando Técnica Vocal para alunos de curso de Graduação em Música nesta mesma Instituição. Ministrou também o curso de Iniciação ao Canto Lírico na Escola de Música da Universidade Estadual de Maringá (EMU-UEM) entre os anos de 2010-2012. Formou-se no curso Técnico em Canto (2008) e teve sua formação os professores Claudiana Melo (UFAL), Isabel Maresca (SP), Adriana Kayama (UNICAMP) e Angelo Fernandes (UNICAMP). Foi membro do Coro Contemporâneo de Campinas de 2014 a 2018, realizando inúmeras apresentações musicais como solista e coralista. Atua como professora e pesquisadora nas áreas de voz, fisiologia vocal, estudo de repertório, história da música e musicologia com ênfase na música brasileira do Séc. XX e história da arte. Professora na Universidade Cesumar, atualmente responde pelo cargo de coordenadora de Curso Ead na mesma instituição.`
+            },
+            {
+                name: "Fabio Luiz Iba",
+                img: "assets/img/fabio.jpeg",
+                bio: `Doutorando no Programa de Pós-Graduação em Tecnologias Limpas da Universidade Cesumar (2025). Pós-graduação em Administração, Finanças e Geração de Valor (lato sensu) pela PUCRS (2024) e graduando em Ciências Econômicas pela Unicesumar (2025). Mestre em Administração pelo Programa de Pós-Graduação em Administração da Universidade Estadual de Maringá (UEM), na linha de pesquisa Organização e Mercado (2018). Graduado em Administração pela UEM (2005), com MBA em Gestão Empresarial (2011) e MBA em Gerenciamento de Projetos (2014), ambos também pela UEM. Atualmente, atua como coordenador do curso de graduação EaD em Administração na Unicesumar, realizando o planejamento e acompanhamento das atividades pedagógicas, a comunicação entre docentes, discentes e áreas administrativas, a gestão de materiais didáticos, o cumprimento das normas institucionais e legais, a liderança e capacitação da equipe docente, o acompanhamento discente, a elaboração de planos de ação e o planejamento de eventos e ações formativas. Possui ampla experiência na docência em cursos de graduação e pós-graduação lato sensu, tanto na modalidade presencial quanto a distância, e atua também como avaliador Ad Hoc do Programa Centelha`
+            },
+            {
+                name: "Izabela Lo Ruama Alves Nogueira",
+                img: "assets/img/izabela.jpeg",
+                bio: ``
+            },
+            {
+                name: "Calili Alves Cavalheiro",
+                img: "assets/img/calili.jpeg",
+                bio: `Doutorando e Mestre em Administração pela Universidade Estadual de Maringá UEM (2019). Especialista em Educação e Formação Empreendedora pela Universidade Estadual do Centro-Oeste Unicentro (2016). Bacharel em Publicidade e Propaganda pela UNIFAMMA (2014). Possui experiência nas áreas de publicidade, produção audiovisual e tecnologia, estratégias de vendas e marketing. Atuou como professor do curso de Computação Gráfica na UNIFAMMA, ministrando disciplinas na área de produção e edição de áudio e vídeo. Atualmente Coordenador dos cursos na modalidade de Educação à Distância em Jornalismo, Publicidade e Propaganda, Relações Públicas, Cinema e Audiovisual e Comunicação Institucional na UniCesumar. Na UniCesumar atuou como professor dos cursos de Marketing e Mídias Digitais. Na Vitru Educação atuou mais de 6 anos como Coordenador de Tecnologia Educacional com experiência em liderança e gestão de equipes, atuando no planejamento estratégico e operações na gestão de Produção Audiovisual no ensino à distância.`
+            }
+        ];
 
         let currentIndex = 0;
         const textContent = document.getElementById('textContent');
@@ -53,7 +63,7 @@ const guests = [
             dot.addEventListener('click', () => switchGuest(index));
             dotsContainer.appendChild(dot);
         });
-        
+
         const dots = document.querySelectorAll('.dot');
 
         function switchGuest(newIndex) {
@@ -73,7 +83,7 @@ const guests = [
 
                 guestImg.classList.remove('hidden-img');
                 textContent.classList.remove('hidden-text');
-            }, 400); 
+            }, 400);
         }
 
         guestName.textContent = guests[0].name;
@@ -100,7 +110,7 @@ const guests = [
             {
                 name: "Profª Ma. Waleria Leonel",
                 role: "Coordenação Geral",
-                img: "assets/img/waleria.jpg",
+                img: "assets/img/Waleria.jpg",
                 isStar: true,
                 bio: `
                     <ul style="padding-left: 20px; list-style-type: disc;">
@@ -115,42 +125,42 @@ const guests = [
             {
                 name: "Felipe Laureano",
                 role: "Tutor",
-                img: "assets/img/felipe.jpeg",
+                img: "assets/img/Felipe.jpeg",
                 isStar: false,
                 bio: "<p>Bacharel em Psicologia, Bacharel e Especialista em Teologia. Dedica-se a acompanhar e apoiar os coordenadores e mediadores durante toda a organização do evento.</p>"
             },
             {
                 name: "Aline Gonçalves",
                 role: "Mediadora",
-                img: "assets/img/aline.jpeg",
+                img: "assets/img/Aline.jpeg",
                 isStar: false,
                 bio: "<p>Licenciada em Letras e Pedagogia, Especializada em Educação de Jovens e Adultos e Metodologia do Ensino de Língua Portuguesa, Mestre em Letras.</p>"
             },
             {
                 name: "Jamile Boffo",
                 role: "Mediadora",
-                img: "assets/img/jamile.png",
+                img: "assets/img/Jamile.png",
                 isStar: false,
                 bio: "<p>Licenciada em Pedagogia, Tecnóloga em Análise e Desenvolvimento de Sistemas, Especializada em Educação Especial e Libras, Mestre em Gestão do Conhecimento nas Organizações.</p>"
             },
             {
                 name: "Marcela Xavier",
                 role: "Mediadora",
-                img: "assets/img/marcela.jpeg",
+                img: "assets/img/Marcela.jpeg",
                 isStar: false,
                 bio: "<p>Licenciada em Pedagogia, Especialista em Psicopedagogia Institucional, Clínica e Hospitalar, Gestão Escolar e Metodologias e Processos em EAD, Neuropsicopedagogia. Cursando MBA em Gestão de Projetos.</p>"
             },
             {
                 name: "Naiara Santos",
                 role: "Mediadora",
-                img: "assets/img/naiara.jpeg",
+                img: "assets/img/Naiara.jpeg",
                 isStar: false,
                 bio: "<p>Bacharel em Psicologia, Especialista em Neuroaprendizagem, Gestão de Pessoas, Educação Especial com foco no Transtorno do Espectro Autista e Psicopatologia e Dependência Química.</p>"
             },
             {
                 name: "Thamires Ramos",
                 role: "Mediadora",
-                img: "assets/img/thamires.jpeg",
+                img: "assets/img/Thamires.jpeg",
                 isStar: false,
                 bio: "<p>Licenciada em Letras, Pedagogia e Gestão de Recursos Humanos, Especializada em Psicopedagogia Clínica e Institucional, Gestão e Docência no EAD, Educação Especial e Inclusiva e Tecnologias Aplicadas ao EAD.</p>"
             }
@@ -165,11 +175,11 @@ const guests = [
         teamData.forEach((member, index) => {
             const item = document.createElement('div');
             item.className = 'selector-item';
-            
+
             if (member.isStar) {
                 item.classList.add('highlight-star');
             }
-            
+
             if (index === 0) item.classList.add('active');
 
             item.innerHTML = `
