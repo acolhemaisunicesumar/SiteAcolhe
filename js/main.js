@@ -26,27 +26,27 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: "Gislaine Cardoso de Souza Fiaes",
                 img: "assets/img/gislaine.jpeg",
-                bio: `Doutoranda em Promoção da Saúde. Mestre em Ciências Farmacêuticas pela Universidade Estadual de Maringá (UEM). Possui experiência na área de Neuropsicofarmacologia, com ênfase nos substratos neurais da ansiedade e na fisiopatologia dos transtornos de ansiedade generalizada, depressão e transtorno do pânico (2017). Especialização em Farmacologia Aplicada a Terapêutica pela Universidade Estadual de Maringá (UEM) (2019). Graduação em Farmácia pela UniCesumar (2013). Com experiência docente no ensino superior presencial e a distância, ministrando disciplinas, como: Anatomia Humana, Toxicologia, Parasitologia, Fundamentos de Farmacologia e Farmacologia Aplicada. Atualmente, exerce a função de coordenadora de curso do Núcleo de Educação a Distância da Unicesumar.`
+                bio: `Mestre em Ciências Farmacêuticas pela Universidade Estadual de Maringá. Coordena cursos EAD das áreas da saúde (Biomedicina, Farmácia, entre outros). Atualmente, é doutoranda do PPG em Promoção da Saúde da UniCesumar. `
             },
             {
                 name: "Rafaela Haddad Costa Ribas",
                 img: "assets/img/rafaela.jpeg",
-                bio: `Licenciada em Música, é também Mestra e Doutora em Música pelo Instituto de Artes da Universidade Estadual de Campinas - UNICAMP. Bolsista CAPES tanto no mestrado quanto no doutorado, fez parte do Programa Estágio Docente e Docente Integral (PED), lecionando Técnica Vocal para alunos de curso de Graduação em Música nesta mesma Instituição. Ministrou também o curso de Iniciação ao Canto Lírico na Escola de Música da Universidade Estadual de Maringá (EMU-UEM) entre os anos de 2010-2012. Formou-se no curso Técnico em Canto (2008) e teve sua formação os professores Claudiana Melo (UFAL), Isabel Maresca (SP), Adriana Kayama (UNICAMP) e Angelo Fernandes (UNICAMP). Foi membro do Coro Contemporâneo de Campinas de 2014 a 2018, realizando inúmeras apresentações musicais como solista e coralista. Atua como professora e pesquisadora nas áreas de voz, fisiologia vocal, estudo de repertório, história da música e musicologia com ênfase na música brasileira do Séc. XX e história da arte. Professora na Universidade Cesumar, atualmente responde pelo cargo de coordenadora de Curso Ead na mesma instituição.`
+                bio: `Mestre e Doutora em Música pelo Instituto de Artes da Universidade Estadual de Campinas. Coordenadora de cursos EAD nas áreas de licenciatura, música e artes. `
             },
             {
                 name: "Fabio Luiz Iba",
                 img: "assets/img/fabio.jpeg",
-                bio: `Doutorando no Programa de Pós-Graduação em Tecnologias Limpas da Universidade Cesumar (2025). Pós-graduação em Administração, Finanças e Geração de Valor (lato sensu) pela PUCRS (2024) e graduando em Ciências Econômicas pela Unicesumar (2025). Mestre em Administração pelo Programa de Pós-Graduação em Administração da Universidade Estadual de Maringá (UEM), na linha de pesquisa Organização e Mercado (2018). Graduado em Administração pela UEM (2005), com MBA em Gestão Empresarial (2011) e MBA em Gerenciamento de Projetos (2014), ambos também pela UEM. Atualmente, atua como coordenador do curso de graduação EaD em Administração na Unicesumar, realizando o planejamento e acompanhamento das atividades pedagógicas, a comunicação entre docentes, discentes e áreas administrativas, a gestão de materiais didáticos, o cumprimento das normas institucionais e legais, a liderança e capacitação da equipe docente, o acompanhamento discente, a elaboração de planos de ação e o planejamento de eventos e ações formativas. Possui ampla experiência na docência em cursos de graduação e pós-graduação lato sensu, tanto na modalidade presencial quanto a distância, e atua também como avaliador Ad Hoc do Programa Centelha`
+                bio: `Mestre em Administração pela Universidade Estudal de Maringá. Atua na coordenação de cursos EAD nas áreas de gestão e negócios da UniCesumar. Atualmente, é doutorando do PPG em Tecnologias Limpas da UniCesumar.`
             },
             {
                 name: "Izabela Lo Ruama Alves Nogueira",
                 img: "assets/img/izabela.jpeg",
-                bio: ``
+                bio: `Graduada em Gestão Hospitalar pela EAD UniCesumar. Possui Pós graduação em Gestão da Qualidade em Saúde e em Auditoria em Saúde. Atualmente trabalha no Hospital Santa Casa de Maringá.`
             },
             {
                 name: "Calili Alves Cavalheiro",
                 img: "assets/img/calili.jpeg",
-                bio: `Doutorando e Mestre em Administração pela Universidade Estadual de Maringá UEM (2019). Especialista em Educação e Formação Empreendedora pela Universidade Estadual do Centro-Oeste Unicentro (2016). Bacharel em Publicidade e Propaganda pela UNIFAMMA (2014). Possui experiência nas áreas de publicidade, produção audiovisual e tecnologia, estratégias de vendas e marketing. Atuou como professor do curso de Computação Gráfica na UNIFAMMA, ministrando disciplinas na área de produção e edição de áudio e vídeo. Atualmente Coordenador dos cursos na modalidade de Educação à Distância em Jornalismo, Publicidade e Propaganda, Relações Públicas, Cinema e Audiovisual e Comunicação Institucional na UniCesumar. Na UniCesumar atuou como professor dos cursos de Marketing e Mídias Digitais. Na Vitru Educação atuou mais de 6 anos como Coordenador de Tecnologia Educacional com experiência em liderança e gestão de equipes, atuando no planejamento estratégico e operações na gestão de Produção Audiovisual no ensino à distância.`
+                bio: `Mestre em Administração pela Universidade Estadual de Maringá. Atua como coordenador de cursos EAD das áreas de comunicação da UniCesumar. Doutorando em Administração pela UEM.`
             }
         ];
 
